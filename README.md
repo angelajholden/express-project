@@ -2,7 +2,7 @@
 
 ## Project files after finishing Traversy Media Node/Express crash course
 
-### Getting Started with this project
+### Getting started with this project
 
 ```
 git clone git@github.com:angelajholden/express-test.git
@@ -11,7 +11,7 @@ npm install
 
 ---
 
-### Starting an Express app from scratch
+### Starting a node/express app from scratch
 
 Initialize node app and create `package.json`
 
