@@ -25,7 +25,7 @@ Install `express` and `ejs`
 npm i express ejs
 ```
 
-Install `nodemon` as Dev Dependency
+Install `nodemon` as dev dependency
 
 ```
 npm i -D nodemon
@@ -41,7 +41,7 @@ Add `nodemon` to `package.json/scripts`
   },
 ```
 
-Start app
+To start the app
 
 ```
 npm run dev
@@ -51,15 +51,13 @@ npm run dev
 
 ### Git
 
-Create new file `.gitignore`
+Create new file `.gitignore` and add these folder/files
 
 ```
 node_modules
 tmp
 .tmp
 .npm-debug.log
-*.sass-cache
-*.css.map
 ```
 
 Initialize `git` repository
@@ -73,6 +71,12 @@ Stage files and commit
 ```
 git add .
 git commit -m "initial commit"
+```
+
+Check your status
+
+```
+git status
 ```
 
 ### Github
