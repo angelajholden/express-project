@@ -1,4 +1,4 @@
-# Express App
+# Express App :sunflower:
 
 ## Project files after finishing Traversy Media Node/Express crash course
 
@@ -81,7 +81,29 @@ git commit -m "initial commit"
 2. Click New Repository (green button)
 3. Add Repository name (required)
 4. Add Description (optional)
-5. Select Public or Private
-6. Do not initialize repository with README
-7. We already have a `.gitignore`
-8. You can choose a license later
+5. Select Public or Private (required)
+6. Do not initialize repository with README (you can do this later)
+7. Do not create a `.gitignore` (you already did this)
+8. Create a license (optional)
+
+### Go back to your files
+
+Change the branch name from `master` to `main`
+
+```
+git branch -M main
+```
+
+Add the remote origin URL - copy this from Github
+
+```
+git remote add origin git@github.com:<user_name>/<repository_name>.git
+```
+
+Push to your Github repository
+
+```
+git push -u origin main
+```
+
+Refresh your Github repository page! :tada:
